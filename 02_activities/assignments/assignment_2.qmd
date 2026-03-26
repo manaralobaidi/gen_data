@@ -55,6 +55,9 @@ lines(density(pheno), col = "blue", lwd = 2)
 # QQ plot to assess normality
 qqnorm(pheno)
 qqline(pheno, col = "red")
+
+#The histogram shows a roughly bell-shaped, symmetric distribution, so the phenotype appears approximately Gaussian.
+
 ```
 
 #### Question 2: Quality control (QC)
